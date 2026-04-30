@@ -25,7 +25,13 @@ const swaggerOptions = {
     },
     servers: [
       {
-        url: 'http://localhost:5001'
+        url: 'http://localhost:5001',
+        description: 'Development server'
+
+      },
+      {
+        url:"google-auth-production.up.railway.app",
+        description: 'Production server'
       }
     ]
   },
