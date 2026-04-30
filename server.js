@@ -24,15 +24,17 @@ const swaggerOptions = {
       description: 'API for user registration and login with email verification'
     },
     servers: [
+       {
+        url:"google-auth-production.up.railway.app",
+        description: 'Production server'
+      },
+      
       {
         url: 'http://localhost:5001',
         description: 'Development server'
 
       },
-      {
-        url:"google-auth-production.up.railway.app",
-        description: 'Production server'
-      }
+     
     ]
   },
   apis: ['./routes/*.js']
