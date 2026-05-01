@@ -34,6 +34,10 @@ const swaggerOptions = {
         description: 'Development server'
 
       },
+      {
+        url:"https://google-auth-bh1g.onrender.com",
+        description: 'Render server'
+      }
      
     ]
   },
